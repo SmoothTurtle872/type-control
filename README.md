@@ -17,7 +17,7 @@ Get more control over your data in minecraft!
 **Returns** null  
 **Parameters**  
 - `string` : str | The string to loop through  
-- `func` : function | the function to be run  
+- `function` : func | the function to be run  
 - `args` : object | Any additional parameters to be passed to the function  
 The function that is run on each charachter in the string is passed the following parameters:  
 - `char` : char | The current charachter of the string  
@@ -45,3 +45,20 @@ The function that is run on each charachter in the string is passed the followin
 - `string1` : str | The first string to be compared
 - `string2` : str | The second string to be compared
 ### Arrays  
+#### Loop  
+> Loops through each element in an array
+**Returns** null  
+**Parameters**  
+- `array` : array | The array to loop through  
+- `function` : func | the function to be run  
+- `args` : object | Any additional parameters to be passed to the function  
+The function that is run on each charachter in the string is passed the following parameters:  
+- `element` : ANY | The current element of the array 
+- `ARGS` : ANY | Any arguments passed in through the `args` parameter, unpacked into direct arguments  
+#### Concatonate
+> Concatonates an array into a string
+**Returns** str | outputs to a storage  
+**Parameters**
+- `array` : array | The array to be concatonated
+- `namespace` : str | The namespace of the storage to output to  
+- `path` : str | The path of the storage to output to  
