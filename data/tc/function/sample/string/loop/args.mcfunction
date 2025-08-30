@@ -1,0 +1,1 @@
+function tc:string/loop {string:"Hello There", function:"tc:sample/string/loop/args/say", args:{example:"THIS IS AN EXAMPLE"}}

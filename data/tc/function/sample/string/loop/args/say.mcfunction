@@ -1,0 +1,1 @@
+$say Letter: $(char) | Arg: $(example)

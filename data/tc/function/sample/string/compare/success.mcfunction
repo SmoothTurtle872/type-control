@@ -1,0 +1,1 @@
+return run function tc:string/compare {string1:"Hi",string2:"Hi"}

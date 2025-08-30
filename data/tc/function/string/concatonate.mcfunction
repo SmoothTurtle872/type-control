@@ -1,0 +1,1 @@
+$data modify storage $(namespace) $(path) set value "$(string1)$(string2)"

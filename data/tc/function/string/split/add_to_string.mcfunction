@@ -1,0 +1,1 @@
+$function tc:string/concatonate {namespace:"tc:temp",path:"string.split.string",string1:"$(string)",string2:"$(char)"}

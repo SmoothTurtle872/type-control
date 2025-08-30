@@ -1,0 +1,1 @@
+function tc:array/loop {array:["This", "is", "a", "test"], function:"tc:sample/array/loop/args/say", args:{example:"THIS IS AN EXAMPLE"}}

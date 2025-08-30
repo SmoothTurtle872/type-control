@@ -1,0 +1,1 @@
+return run data modify storage tc:temp string.compare.a set from storage tc:temp string.compare.b
