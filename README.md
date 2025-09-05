@@ -30,12 +30,12 @@ The function that is run on each charachter in the string is passed the followin
 - `char` : char | The character to split the string at  
 - `namespace` : str | The namespace of the storage to output to  
 - `path` : str | The path of the storage to output to
-#### Concatonate
-> Concatonates 2 strings
+#### Concatenate
+> concatenates 2 strings
 **Returns** str | outputs to a storage  
 **Parameters**
-- `string1` : str | The string to be concatonated onto
-- `string2` : str | The string to be concatonated to the end of `string1`
+- `string1` : str | The string to be concatenated onto
+- `string2` : str | The string to be concatenated to the end of `string1`
 - `namespace` : str | The namespace of the storage to output to  
 - `path` : str | The path of the storage to output to
 #### Compare
@@ -55,10 +55,10 @@ The function that is run on each charachter in the string is passed the followin
 The function that is run on each charachter in the string is passed the following parameters:  
 - `element` : ANY | The current element of the array 
 - `ARGS` : ANY | Any arguments passed in through the `args` parameter, unpacked into direct arguments  
-#### Concatonate
-> Concatonates an array into a string
+#### Concatenate
+> Concatenates an array into a string
 **Returns** str | outputs to a storage  
 **Parameters**
-- `array` : array | The array to be concatonated
+- `array` : array | The array to be concatenated
 - `namespace` : str | The namespace of the storage to output to  
 - `path` : str | The path of the storage to output to  

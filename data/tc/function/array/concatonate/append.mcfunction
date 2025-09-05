@@ -1,1 +1,0 @@
-$function tc:string/concatonate {namespace:"tc:temp",path:"array.concatonate.string",string1:"$(string)",string2:"$(element)"}
